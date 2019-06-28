@@ -1,0 +1,11 @@
+[USER@localhost ~]$ kali-linux-rec
+[*] Writing screenshots to: /home/USER/oscp-kali-linux-rec
+[*] Kali Linux VM windows id: 0x2e0000c
+[*] File format: jpg
+[*] Frequency: 10s
+[*] Created: /home/USER/oscp-kali-linux-rec/2019-06-13
+[*] Files in 2019-06-13: 0
+[+] Captured: kali-2019-06-13_22:03:37.jpg
+[-] Skipping [1]...
+[-] Skipping [2]...
+[-] Skipping [3]...
