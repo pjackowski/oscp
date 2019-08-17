@@ -1,21 +1,21 @@
 # Script starts loop to continuously capture screenshots of Kali Linux
-# VM window. It does it every 10 seconds and saves image to drive only
-# when SHA1 checksum differs. This is simple step to discard duplicates.
+# VM window. It does it every 10 seconds and saves the image to drive only
+# when SHA1 checksum differs. This is a simple step to discard duplicates.
 
 # There are many ways to capture images, ex. video recording of VM window
-# in host or with VirtualBox recording feature within VM, but series of
+# in the host or with VirtualBox recording feature within VM, but series of
 # screenshots are smaller and real FPS is much less than 1 frame per second
-# due to time delay and simple image diffing wih SHA1. It also requires less
+# due to time delay and simple image diffing with SHA1. It also requires less
 # CPU and disk space and working with images is simpler than working with
 # long video files.
 
-# Disable gnome date indicator with extension to reduce amount of images:
+# Disable gnome date indicator with extension to reduce the number of images:
 # https://extensions.gnome.org/extension/1110/hide-clock/
 
 # Terminal cursor blinking in Kali is disabled by default, so it doesn't
 # blink, but if it blinks for you I recommend to disable it to reduce
 # captured images. It might be worth to disable blinking text in terminal
-# at all, but I haven't noticed it causing issues. Mouse cursor isn't recorded.
+# at all, but I haven't noticed it causing issues. The mouse cursor isn't recorded.
 # Some text editors might have blinking cursors and will produce more similar
 # screen captures.
 
@@ -23,7 +23,7 @@
 
 # Dependencies:
 # rdfind      - Script uses rdfind to delete duplicates that have slipped
-#               trough SHA1 checks, but usually there are little duplicates.
+#               trough SHA1 checks, but usually, there are very little duplicates.
 # imagemagick - Screenshots are captured with imagemagick.
 
 # ===
