@@ -96,7 +96,7 @@ do
 
   # use imagemagick to capture screen without writing to disk, write file to tmpfs
   # (memory) instead, ex. /tmp or /run/user/1000
-  import -quality 92 -silent -window $KALI_VM_WIN_ID $FULL_TMP_PATH 
+  import -quality 90 -silent -window $KALI_VM_WIN_ID $FULL_TMP_PATH 
 
   # check for recent duplicate with SHA1
   if [ -n "$MOST_RECENT_FILE" ]; then
